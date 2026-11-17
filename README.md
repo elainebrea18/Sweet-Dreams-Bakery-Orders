@@ -42,8 +42,8 @@ This is a local classroom demonstration, not a production checkout. For public h
 - [x] Form loads in browser
 - [x] Valid submission shows confirmation
 - [x] New row appears in MySQL `orders` table
-- [ ] Invalid email or missing required fields are rejected
-- [ ] A past pickup date is rejected
+- [x] Invalid email or missing required fields are rejected
+- [x] A past pickup date is rejected
 
 
 ## Project Submission
