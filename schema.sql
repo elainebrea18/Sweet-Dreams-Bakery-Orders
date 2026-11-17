@@ -1,0 +1,13 @@
+CREATE DATABASE IF NOT EXISTS sweet_dreams_bakery CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+USE sweet_dreams_bakery;
+CREATE TABLE IF NOT EXISTS orders (
+ id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+ customer_name VARCHAR(100) NOT NULL,
+ email VARCHAR(255) NOT NULL,
+ phone VARCHAR(25) NOT NULL,
+ dessert_type VARCHAR(40) NOT NULL,
+ serving_size VARCHAR(30) NOT NULL,
+ pickup_date DATE NOT NULL,
+ notes TEXT NOT NULL,
+ created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
+);
