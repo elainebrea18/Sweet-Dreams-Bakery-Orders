@@ -37,16 +37,46 @@ Full name, email, phone, dessert type, serving size, preferred pickup date, and 
 This is a local classroom demonstration, not a production checkout. For public hosting use HTTPS, a dedicated least-privilege database account, spam/rate limiting, appropriate data retention/privacy notices, and secure session-cookie settings. Do not publicly expose customer data. There is no payment collection or public order-list page.
 
 ## Testing checklist
-- [ ] Apache and MySQL start successfully
-- [ ] Database/table import succeeds
-- [ ] Form loads in browser
-- [ ] Valid submission shows confirmation
-- [ ] New row appears in MySQL `orders` table
+- [x] Apache and MySQL start successfully
+- [x] Database/table import succeeds
+- [x] Form loads in browser
+- [x] Valid submission shows confirmation
+- [x] New row appears in MySQL `orders` table
 - [ ] Invalid email or missing required fields are rejected
 - [ ] A past pickup date is rejected
 
+
 ## Project Submission
 
--This project was developed as a PHP and MySQL web application for My Sweet Dreams Bakery.
+This project was created for my PHP and MySQL assignment.
 
--The platform allows customers to submit custom dessert requests through an online form. PHP processes the submitted information and securely stores it in a MySQL database.
+I developed My Sweet Dreams Bakery, a web application that allows customers to submit custom dessert requests.
+
+The platform uses PHP to process customer information and MySQL to store the submitted orders.
+
+### Testing Results
+
+I successfully submitted five test orders through the website. All five orders were saved in the MySQL database and verified using MySQL Workbench.
+
+### Technologies Used
+
+- PHP
+- MySQL
+- HTML
+- CSS
+- XAMPP
+- MySQL Workbench
+
+### Project Features
+
+- Custom dessert order form
+- MySQL database connection
+- Secure form processing using PDO prepared statements
+- Customer information storage
+- Order confirmation message
+- Responsive pink-and-purple bakery design
+
+### GitHub Repository
+
+https://github.com/elainebrea18/Sweet-Dreams-Bakery-Orders
+  
