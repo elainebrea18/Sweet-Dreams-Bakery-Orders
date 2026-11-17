@@ -45,5 +45,8 @@ This is a local classroom demonstration, not a production checkout. For public h
 - [ ] Invalid email or missing required fields are rejected
 - [ ] A past pickup date is rejected
 
-## GitHub submission
-Create a repository and upload these files (do not upload credentials or customer data). Add screenshots of the form, successful submission, and the database table **with private customer information hidden**. Submit the repository URL to your instructor.
+## Project Submission
+
+-This project was developed as a PHP and MySQL web application for My Sweet Dreams Bakery.
+
+-The platform allows customers to submit custom dessert requests through an online form. PHP processes the submitted information and securely stores it in a MySQL database.
